@@ -1,0 +1,15 @@
+.container {
+    height: 100vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.row.expenseDisplay {
+    flex: 1;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding-top: 1rem;
+}
